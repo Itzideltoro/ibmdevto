@@ -1,0 +1,12 @@
+applications:
+- name: ideldevto-app
+  random-route: true
+  memory: 256M
+  buildpack: nodejs_buildpack
+  stack: cflinuxfs3
+env: 
+  DB_USER: idelt
+  DB_PASSWORD: Valinbe1
+  DB_HOST: kodemiabootcamp.4in2x.mongodb.net
+  DB_NAME: kodemia
+  JWT_SECRET: kodemia123
